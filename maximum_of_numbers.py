@@ -6,7 +6,8 @@ class gali:
                 ma=i
         return ma
 n=[]
-k=int(input("enter"))
+k=int(input("enter how many numbers"))
+print("enter those numbers")
 for i in range(k):
     i=int(input())
     n.append(i)
